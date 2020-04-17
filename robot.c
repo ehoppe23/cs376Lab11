@@ -22,7 +22,7 @@ void robotPrintMessage(void)
 {
   printf("\n\nI really love robots!\n\n");
   return;
-}
+                             }
 
 /**
  * robotPrintAscii
@@ -32,15 +32,32 @@ void robotPrintAscii(void)
 {
   int i;
   char* blank = "                              ";
+ 
+  
   blank = blank +30;
+ printf("\n\n"
+         "UWR: Unidentified Wheeled Robot\n"
+         "    ^_^    \n"
+         "   [O_o]   \n"
+         "  /|___|\\ \n"
+         "   d   b   \n");
+
+
   printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n"
-	 "%s    ^_^    \n"
-	 "%s   [O_o]   \n"
-	 "%s  /|___|\\ \n"
-	 "%s   d   b   \n",blank, blank, blank, blank);
+	 "			         ^_^    \n"
+	 "                                [O_o]   \n"
+	 "                               /|___|\\ \n"
+	 "                                d   b   \n");
 
-  blank = blank - 10;
+ 
+ printf("\n\n"
+         "UWR: Unidentified Wheeled Robot\n"
+         "                                                               ^_^    \n"
+         "                                                              [O_o]   \n"
+         "                                                             /|___|\\ \n"
+         "                                                              d   b   \n");
+
 }
 
 /**
